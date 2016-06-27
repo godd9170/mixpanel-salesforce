@@ -1,0 +1,3 @@
+requests==2.10.0
+simple-salesforce==0.69
+hashids==0.8.4
