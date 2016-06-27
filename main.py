@@ -1,8 +1,8 @@
 import os
-from Mixpanel import Mixpanel
+from lib.Mixpanel import Mixpanel
 from xml.etree import ElementTree as ET
-from Salesforce import SFDC
-from CSVify import CSVify
+from lib.Salesforce import SFDC
+from lib.CSVify import CSVify
 import hashlib
 import re
 try:
