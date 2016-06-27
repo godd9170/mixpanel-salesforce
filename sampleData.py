@@ -1,0 +1,25 @@
+unique_emails = ['hgoddard@saasli.com', 'rtaylor@saasli.com'] #remove
+people_events = [
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'hank', 'Email': 'hgoddard@saasli.com', 'Event_Date_Created_UNIX__c': 1466607124}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'hank', 'Email': 'hgoddard@saasli.com', 'Event_Date_Created_UNIX__c': 1466607263}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'hank', 'Email': 'hgoddard@saasli.com', 'Event_Date_Created_UNIX__c': 1466607326}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'hank', 'Email': 'hgoddard@saasli.com', 'Event_Date_Created_UNIX__c': 1466609687}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'hank', 'Email': 'hgoddard@saasli.com', 'Event_Date_Created_UNIX__c': 1466609705}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'hank', 'Email': 'hgoddard@saasli.com', 'Event_Date_Created_UNIX__c': 1466609707}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'hank', 'Email': 'hgoddard@saasli.com', 'Event_Date_Created_UNIX__c': 1466609733}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'hank', 'Email': 'hgoddard@saasli.com', 'Event_Date_Created_UNIX__c': 1466609734}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'hank', 'Email': 'hgoddard@saasli.com', 'Event_Date_Created_UNIX__c': 1466610543}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'hank', 'Email': 'hgoddard@saasli.com', 'Event_Date_Created_UNIX__c': 1466610544}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'hank', 'Email': 'hgoddard@saasli.com', 'Event_Date_Created_UNIX__c': 1466611761},
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'rich', 'Email': 'rtaylor@saasli.com', 'Event_Date_Created_UNIX__c': 1465662839}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'rich', 'Email': 'rtaylor@saasli.com', 'Event_Date_Created_UNIX__c': 1465748888}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'rich', 'Email': 'rtaylor@saasli.com', 'Event_Date_Created_UNIX__c': 1465289553}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'rich', 'Email': 'rtaylor@saasli.com', 'Event_Date_Created_UNIX__c': 1466106705}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'rich', 'Email': 'rtaylor@saasli.com', 'Event_Date_Created_UNIX__c': 1465519190}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'rich', 'Email': 'rtaylor@saasli.com', 'Event_Date_Created_UNIX__c': 1465849396}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'rich', 'Email': 'rtaylor@saasli.com', 'Event_Date_Created_UNIX__c': 1465734358}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'rich', 'Email': 'rtaylor@saasli.com', 'Event_Date_Created_UNIX__c': 1464859637}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'rich', 'Email': 'rtaylor@saasli.com', 'Event_Date_Created_UNIX__c': 1466645491}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'rich', 'Email': 'rtaylor@saasli.com', 'Event_Date_Created_UNIX__c': 1465730242}, 
+	{'Product__c' : 'Atla', 'event_name': 'Test Event', 'distinct_id': 'rich', 'Email': 'rtaylor@saasli.com', 'Event_Date_Created_UNIX__c': 1466172756}
+]
