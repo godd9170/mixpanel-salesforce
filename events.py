@@ -25,7 +25,7 @@ class Mixpanel(object):
 		self.api_secret = api_secret
 
 	def csvify(self, file):
-		with open('0621/atal_events_0621.csv', 'wb') as csvfile:
+		with open('0622/atal_events_0622.csv', 'wb') as csvfile:
 
 			eventwriter = csv.writer(csvfile, delimiter=',')
 			eventwriter.writerow(['Event', 'Time', 'Distinct Id'])
@@ -106,9 +106,9 @@ class Mixpanel(object):
 
 api_key = os.environ['MX_API_KEY']
 api_secret = os.environ['MX_API_SECRET']
-from_date = '2016-06-21'
-to_date = '2016-06-21'
-output_file = 'atal_events_0621.csv'
+from_date = '2016-06-22'
+to_date = '2016-06-22'
+output_file = 'atal_events_0622.csv'
 
 api = Mixpanel(
 	api_key = api_key, 

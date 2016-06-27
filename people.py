@@ -31,6 +31,7 @@ class Mixpanel(object):
         params['sig'] = self.hash_args(params)
 
         request_url = 'http://mixpanel.com/api/2.0/engage/?' + self.unicode_urlencode(params)
+        print "Request URL: " + request_url
 
         request = urllib.urlopen(request_url)
         data = request.read()
@@ -100,7 +101,7 @@ if __name__ == '__main__':
     fname = "output_people.txt"
     has_results = True
     total = 0
-    with open('0621/people_atla_0621.csv', 'wb') as csvfile:
+    with open('06210622/people_atla_06210622.csv', 'wb') as csvfile:
         eventwriter = csv.writer(csvfile, delimiter=',')
         eventwriter.writerow(['Distinct Id', 'Email'])
         while has_results:
